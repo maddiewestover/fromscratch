@@ -1,0 +1,100 @@
+body {
+    background-color: lightcyan;
+  }
+  
+  h1 {
+    color: navy;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+  }
+  
+  p1 {
+    font-family: verdana;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  ul {
+    list-style-type: square;
+  }
+
+  h2 {
+    color: navy;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  }
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  border-radius: 15px;
+}
+
+div {
+  color:darkblue
+}
+
+div {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#title {
+  text-align: center;
+  font-family: 'Staatliches', cursive;
+  font-size: 4em;
+  color:#fff
+}
+
+.realwebsite {
+  position: absolute;
+  top: 525px;
+  right: 50px;
+  border-style: solid;
+}
+
+.youtube {
+  text-align: center;
+}
+
+.ready {
+  border-style: dotted;
+}
+
+
+
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: #009961;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+
+.back-to-top i {
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
+
+.back-to-top:hover {
+  background: #00c27b;
+  color: #fff;
+}
+
+.back-to-top.active {
+  visibility: visible;
+  opacity: 1;
+}
